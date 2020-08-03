@@ -1,0 +1,29 @@
+微服务
+ 微服务架构是从SOA（http+xml）架构中演变过来，比SOA架构更精细
+
+ 微服务特点：
+    让专业的人去做专业的事情，目的就是提升效率，每个服务与服务之间互不影响，每个服务必须独立部署（独立的数据库，独立的redis）
+
+    微服务采用restful风格提供api 也就是 http+json格式
+
+
+SpringCloud是基于SpringBoot基础之上开发的微服务框架，
+SpringCloud是一套目前非常完整的微服务解决方案框架，
+其内容包含服务治理、注册中心、配置管理、断路器、智能路由、微代理、控制总线、全局锁、分布式会话等。
+SpringCloud config 分布式配置中心
+SpringCloud netflix 核心组件
+	Eureka([juˈriːkə]):服务治理  注册中心
+	Hystrix(haisicuikesi):服务保护框架
+	Ribbon([ˈrɪbən]):客户端负载均衡器
+	Feign([feɪn])：基于ribbon和hystrix的声明式服务调用组件
+	Zuul: 网关组件,提供智能路由、访问过滤等功能
+
+
+运行原理：
+
+1、请求统一通过API网关（Zuul）来访问内部服务.
+2、网关接收到请求后，从注册中心（Eureka）获取可用服务
+3、由Ribbon进行均衡负载后，分发到后端具体实例
+4、微服务之间通过Feign进行通信处理业务
+5、Hystrix负责处理服务超时熔断
+6、Turbine监控服务间的调用和熔断相关指标
