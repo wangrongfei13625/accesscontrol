@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: nswy-config
+    profiles:
+      active: native #配置文件在本地

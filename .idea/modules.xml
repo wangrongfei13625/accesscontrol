@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/accesscontrol.iml" filepath="$PROJECT_DIR$/accesscontrol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api-commons/api-commons.iml" filepath="$PROJECT_DIR$/api-commons/api-commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api-config/api-config.iml" filepath="$PROJECT_DIR$/api-config/api-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api-eureka/api-eureka.iml" filepath="$PROJECT_DIR$/api-eureka/api-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api-gatway/api-gatway.iml" filepath="$PROJECT_DIR$/api-gatway/api-gatway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api-member/api-member.iml" filepath="$PROJECT_DIR$/api-member/api-member.iml" />
+    </modules>
+  </component>
+</project>

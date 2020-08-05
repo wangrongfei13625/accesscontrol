@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="accesscontrol" />
+        <module name="api-commons" />
+        <module name="api-config" />
+        <module name="api-eureka" />
+        <module name="api-gatway" />
+        <module name="api-member" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="accesscontrol" target="1.8" />
+      <module name="api-commons" target="1.8" />
+      <module name="api-config" target="1.8" />
+      <module name="api-eureka" target="1.8" />
+      <module name="api-gatway" target="1.8" />
+      <module name="api-member" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="accesscontrol" options="-verbose -bootclasspath &quot;C:/Program Files/Java/jdk1.8.0_101/jre/lib/rt.jar:C:/Program Files/Java/jdk1.8.0_101/jre/lib/jce.jar&quot;" />
+      <module name="api-commons" options="-parameters" />
+      <module name="api-config" options="-verbose -bootclasspath &quot;C:/Program Files/Java/jdk1.8.0_101/jre/lib/rt.jar:C:/Program Files/Java/jdk1.8.0_101/jre/lib/jce.jar&quot;" />
+      <module name="api-eureka" options="-verbose -bootclasspath &quot;C:/Program Files/Java/jdk1.8.0_101/jre/lib/rt.jar:C:/Program Files/Java/jdk1.8.0_101/jre/lib/jce.jar&quot;" />
+      <module name="api-gatway" options="-verbose -bootclasspath &quot;C:/Program Files/Java/jdk1.8.0_101/jre/lib/rt.jar:C:/Program Files/Java/jdk1.8.0_101/jre/lib/jce.jar&quot;" />
+      <module name="api-member" options="-verbose -bootclasspath &quot;C:/Program Files/Java/jdk1.8.0_101/jre/lib/rt.jar:C:/Program Files/Java/jdk1.8.0_101/jre/lib/jce.jar&quot;" />
+    </option>
+  </component>
+</project>

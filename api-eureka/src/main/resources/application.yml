@@ -20,4 +20,4 @@ eureka:
     # 踢除服务时效间隔
     eviction-interval-timer-in-ms: 2000
 
-#spring.cloud.config.discovery.enabled: true
+spring.cloud.config.discovery.enabled: true
